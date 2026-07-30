@@ -15,7 +15,7 @@ export default function App() {
   const [showMinTeamsWarning, setShowMinTeamsWarning] = useState(false);
   
   // CONTRASEÑA PARA EDITAR EL TORNEO
-  const ADMIN_PASSWORD = '123'; 
+  const ADMIN_PASSWORD = 'P@del2721'; 
 
   const handleLogin = () => {
     if (passcode === ADMIN_PASSWORD) {
